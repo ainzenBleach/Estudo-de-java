@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    
+body{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.card{
+    background-color: #b2c0d6;
+    height: fit-content;
+    width: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.formulario{
+    width: fit-content;
+}
+
+.campo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.campo input{
+    border-radius: 40px;
+    border: none;
+    width: 250px;
+    height: 20px;
+}
+.usuario{
+    
+}
+
+.senha{
+    
+}
+
+.botao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao button{
+    border-radius: 40px;
+    width: 110px;
+    border: none;
+    height: 25px;
+}
